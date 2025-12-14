@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Dan's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">DN</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link"><i class="fas fa-home"></i></a></li>
+                <li><a href="index.html#about" class="nav-link"><i class="fas fa-user"></i></a></li>
+                <li><a href="index.html#skills" class="nav-link"><i class="fas fa-code"></i></a></li>
+                <li><a href="#projects" class="nav-link"><i class="fas fa-folder"></i></a></li>
+                <li><a href="index.html#contact" class="nav-link"><i class="fas fa-envelope"></i></a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle"><i class="fas fa-moon"></i></button>
+                <button id="menu-toggle" class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+                <button class="filter-btn" data-filter="school">School Task</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="web">
+                    <img src="/img/blog.jpg" alt="Personal Blog Website" class="project-image">
+                    <div class="project-info">
+                        <h3>Personal Blog Website</h3>
+                        <p>A responsive blog built with HTML, CSS, and JavaScript. Features include dynamic content loading and clean typography.</p>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="design">
+                    <img src="/img/logo.jpg" alt="Logo Design" class="project-image"   >
+                    <div class="project-info">
+                        <h3>Logo Design</h3>
+                        <p>Creative logo designs created using Figma for various clients and personal projects.</p>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="school">
+                    <img src="/img/database.jpg" alt="School Database System" class="project-image">
+                    <div class="project-info">
+                        <h3>School Database System</h3>
+                        <p>A simple database system for managing school records, built as a school project.</p>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="design">
+                    <img src="/img/ui mockup.jpg" alt="Mobile App UI Mockup" class="project-image">
+                    <div class="project-info">
+                        <h3>Mobile App UI Mockup</h3>
+                        <p>UI mockups for mobile applications designed with user experience in mind.</p>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <p>© 2025 Daniel N. Pening. For school purposes only</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

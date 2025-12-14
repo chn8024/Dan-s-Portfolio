@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dan's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="glass-navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">DN</span>
+                <div class="logo-glow"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link" data-tooltip="Home"><i class="fas fa-home"></i></a></li>
+                <li><a href="#about" class="nav-link" data-tooltip="About"><i class="fas fa-user"></i></a></li>
+                <li><a href="#skills" class="nav-link" data-tooltip="Skills"><i class="fas fa-code"></i></a></li>
+                <li><a href="projects.html" class="nav-link" data-tooltip="Projects"><i class="fas fa-folder"></i></a></li>
+                <li><a href="#contact" class="nav-link" data-tooltip="Contact"><i class="fas fa-envelope"></i></a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle" data-tooltip="Toggle Theme">
+                    <i class="fas fa-moon"></i>
+                    <div class="toggle-glow"></div>
+                </button>
+                <button id="menu-toggle" class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="greeting">Hello, I'm</div>
+                    <h1 class="hero-name">
+                        <span class="name-part">Daniel</span>
+                        <span class="name-part">N.</span>
+                        <span class="name-part">Pening</span>
+                    </h1>
+                    <div class="hero-subtitle">
+                        <span class="subtitle-text" id="tagline">Building clean and functional web experiences</span>
+                        <div class="subtitle-underline"></div>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">2nd</span>
+                            <span class="stat-label">Year Student</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">20</span>
+                            <span class="stat-label">Years Old</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">IT</span>
+                            <span class="stat-label">Specialist</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="profile-wrapper">
+                        <div class="profile-glow"></div>
+                        <img src="/img/dankol.jpg" alt="Daniel N. Pening" class="profile-pic">
+                        <div class="profile-overlay"></div>
+                    </div>
+                    <div class="floating-elements">
+                        <div class="floating-icon icon-1"><i class="fab fa-html5"></i></div>
+                        <div class="floating-icon icon-2"><i class="fab fa-css3-alt"></i></div>
+                        <div class="floating-icon icon-3"><i class="fab fa-js-square"></i></div>
+                        <div class="floating-icon icon-4"><i class="fab fa-react"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-actions">
+                <a href="#about" class="explore-btn">
+                    <span>Explore My Work</span>
+                    <i class="fas fa-arrow-down"></i>
+                    <div class="btn-glow"></div>
+                </a>
+                <div class="scroll-indicator">
+                    <div class="scroll-mouse">
+                        <div class="scroll-wheel"></div>
+                    </div>
+                    <span>Scroll Down</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-decoration">
+                    <div class="decoration-line"></div>
+                    <div class="decoration-dot"></div>
+                    <div class="decoration-line"></div>
+                </div>
+            </div>
+            <div class="about-content">
+                <div class="about-visual">
+                    <div class="profile-card">
+                        <div class="card-border"></div>
+                        <img src="/img/profile pic.jpg" alt="Daniel N. Pening" class="profile-pic">
+                        <div class="profile-badge">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>IT Student</span>
+                        </div>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-university"></i>
+                            </div>
+                            <div class="stat-content">
+                                <span class="stat-value">EVSU-CC</span>
+                                <span class="stat-label">University</span>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="stat-content">
+                                <span class="stat-value">Carigara</span>
+                                <span class="stat-label">Location</span>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="stat-content">
+                                <span class="stat-value">Web Dev</span>
+                                <span class="stat-label">Passion</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <div class="about-intro">
+                        <h3>Hello! I'm Daniel</h3>
+                        <div class="intro-decoration"></div>
+                    </div>
+                    <p class="about-description">
+                        A 20-year-old aspiring web developer currently in my 2nd year at
+                        <span class="highlight">Eastern Visayas State University-Carigara Campus</span>.
+                        As an IT student, I'm passionate about creating clean, user-friendly interfaces
+                        that solve real problems and deliver exceptional user experiences.
+                    </p>
+                    <p class="about-description">
+                        My focus is on building functional web experiences with attention to detail
+                        and user experience. I enjoy turning ideas into interactive, accessible websites
+                        that not only look great but also perform flawlessly across all devices.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Clean & Modern Design</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>User-Centric Approach</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Continuous Learning</span>
+                        </div>
+                    </div>
+                    <div class="about-cta">
+                        <a href="#contact" class="cta-btn">
+                            <span>Let's Connect</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <div class="section-decoration">
+                    <div class="decoration-line"></div>
+                    <div class="decoration-dot"></div>
+                    <div class="decoration-line"></div>
+                </div>
+                <p class="section-subtitle">Technologies and tools I work with</p>
+            </div>
+            <div class="skills-showcase">
+                <div class="skills-main">
+                    <div class="skill-category featured">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h3>Frontend Development</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">HTML5</span>
+                                    <span class="skill-level">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">CSS3</span>
+                                    <span class="skill-level">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">JavaScript</span>
+                                    <span class="skill-level">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">React</span>
+                                    <span class="skill-level">70%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-sidebar">
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                            <h3>Tools & Platforms</h3>
+                        </div>
+                        <div class="tool-grid">
+                            <div class="tool-item">
+                                <i class="fas fa-code"></i>
+                                <span>VS Code</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fab fa-figma"></i>
+                                <span>Figma</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fas fa-palette"></i>
+                                <span>Canva</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <h3>Professional</h3>
+                        </div>
+                        <div class="soft-skills">
+                            <div class="soft-skill">
+                                <div class="soft-skill-icon">
+                                    <i class="fas fa-comments"></i>
+                                </div>
+                                <span>Communication</span>
+                            </div>
+                            <div class="soft-skill">
+                                <div class="soft-skill-icon">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <span>Teamwork</span>
+                            </div>
+                            <div class="soft-skill">
+                                <div class="soft-skill-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <span>Time Management</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-decoration">
+                    <div class="decoration-line"></div>
+                    <div class="decoration-dot"></div>
+                    <div class="decoration-line"></div>
+                </div>
+                <p class="section-subtitle">Some of my recent work and creations</p>
+            </div>
+            <div class="projects-controls">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">
+                        <span>All Projects</span>
+                        <div class="filter-indicator"></div>
+                    </button>
+                    <button class="filter-btn" data-filter="web">
+                        <span>Web Development</span>
+                        <div class="filter-indicator"></div>
+                    </button>
+                    <button class="filter-btn" data-filter="design">
+                        <span>Design</span>
+                        <div class="filter-indicator"></div>
+                    </button>
+                    <button class="filter-btn" data-filter="school">
+                        <span>School Tasks</span>
+                        <div class="filter-indicator"></div>
+                    </button>
+                </div>
+                <a href="projects.html" class="view-all-btn">
+                    <span>View All Projects</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="img/project1.jpg" alt="Personal Blog Website">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" data-tooltip="View Live">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" data-tooltip="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-badge">Web</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Personal Blog Website</h3>
+                        <p>A responsive blog built with HTML, CSS, and JavaScript featuring dynamic content loading and clean typography.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="design">
+                    <div class="project-image">
+                        <img src="img/project2.jpg" alt="Logo Design">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" data-tooltip="View Design">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-badge">Design</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Logo Design Collection</h3>
+                        <p>Creative logo designs created using Figma for various clients and personal projects with modern aesthetics.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Figma</span>
+                            <span class="tech-tag">Branding</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="school">
+                    <div class="project-image">
+                        <img src="img/project3.jpg" alt="School Database System">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" data-tooltip="View Project">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-badge">School</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>School Database System</h3>
+                        <p>A simple database system for managing school records, built as a school project with user-friendly interface.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Database</span>
+                            <span class="tech-tag">PHP</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="design">
+                    <div class="project-image">
+                        <img src="img/project4.jpg" alt="Mobile App UI Mockup">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" data-tooltip="View Mockup">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-badge">Design</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Mobile App UI Mockup</h3>
+                        <p>UI mockups for mobile applications designed with user experience in mind and modern design principles.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">UI/UX</span>
+                            <span class="tech-tag">Figma</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Connect</h2>
+                <div class="section-decoration">
+                    <div class="decoration-line"></div>
+                    <div class="decoration-dot"></div>
+                    <div class="decoration-line"></div>
+                </div>
+                <p class="section-subtitle">Have a project in mind? Let's talk!</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Email</h4>
+                            <p>daniel.pening@email.com</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Location</h4>
+                            <p>Carigara, Leyte, Philippines</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Education</h4>
+                            <p>EVSU-Carigara Campus</p>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <h4>Follow Me</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-link instagram" data-tooltip="Instagram">
+                                <i class="fab fa-instagram"></i>
+                                <div class="social-glow"></div>
+                            </a>
+                            <a href="#" class="social-link facebook" data-tooltip="Facebook">
+                                <i class="fab fa-facebook"></i>
+                                <div class="social-glow"></div>
+                            </a>
+                            <a href="#" class="social-link github" data-tooltip="GitHub">
+                                <i class="fab fa-github"></i>
+                                <div class="social-glow"></div>
+                            </a>
+                            <a href="#" class="social-link linkedin" data-tooltip="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                                <div class="social-glow"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-header">
+                            <h3>Send Message</h3>
+                            <div class="form-decoration"></div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-wrapper">
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                                <div class="input-icon">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                            </div>
+                            <span class="error-message" id="name-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-wrapper">
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                                <div class="input-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                            </div>
+                            <span class="error-message" id="email-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-wrapper">
+                                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                                <div class="input-icon">
+                                    <i class="fas fa-comment"></i>
+                                </div>
+                            </div>
+                            <span class="error-message" id="message-error"></span>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                            <div class="btn-particles"></div>
+                        </button>
+                        <div id="success-message" class="success-message"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <p>© 2025 Daniel N. Pening. For school purposes only</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
